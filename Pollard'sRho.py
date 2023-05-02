@@ -1,5 +1,6 @@
 import random
 import ecdsa
+import base58
 
 # Choose an elliptic curve and a base point P on the curve
 curve = ecdsa.curves.SECP256k1
